@@ -54,9 +54,10 @@ Blog::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-	
+
 	# Created by john pease
 	resources :posts
 
 	root to: "welcome#index"
+
 end
